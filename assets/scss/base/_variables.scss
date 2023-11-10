@@ -1,0 +1,19 @@
+$color-primary: #21412d;
+$color-primary-light: #235937;
+$color-secondary: #c3ef75;
+
+$color-green-light: #bccba1;
+$color-green-dark: #12291e;
+
+$container-width: 1400px;
+$gutter: 20px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$enable-important-utilities: true !default;

@@ -1,0 +1,17 @@
+.about {
+  h1 {
+    font-size: rem(48);
+  }
+
+  @include media-breakpoint-up(lg) {
+    .about {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: rem(64);
+    }
+  }
+}

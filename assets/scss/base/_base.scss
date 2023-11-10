@@ -1,0 +1,91 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: $color-primary;
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    sans-serif;
+  font-size: rem(16);
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+a,
+input,
+textarea,
+button {
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+input {
+  box-shadow: none !important;
+
+  &:focus {
+    background-color: transparent !important;
+  }
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.container {
+  max-width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}

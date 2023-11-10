@@ -1,0 +1,57 @@
+.btn {
+  display: inline-block;
+  min-width: rem(138);
+  padding: rem(16);
+  border-radius: rem(5);
+  color: $color-primary;
+  font-family: 'Inter';
+  font-size: rem(16);
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+
+  @include media-breakpoint-up(lg) {
+    font-size: rem(18);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+
+  &-primary {
+    padding: rem(15);
+    border: 1px solid $color-primary;
+    font-weight: 600;
+  }
+
+  &-secondary {
+    min-width: rem(154);
+    background-color: $color-secondary;
+    font-weight: 500;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+      opacity: 0.85;
+    }
+  }
+
+  &-text {
+    text-decoration: underline;
+  }
+
+  &-styless {
+    min-width: 0;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+}

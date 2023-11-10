@@ -1,0 +1,21 @@
+@use 'sass:math';
+
+@import 'vendors/swiper-bundle.min';
+
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/functions';
+@import 'base/mixins';
+@import 'base/breakpoints';
+@import 'base/base';
+@import 'base/type';
+
+@import 'trumps/utilities';
+@import 'trumps/helpers';
+
+@import 'components/buttons';
+
+@import 'pages/about';
+
+@import 'layout/header';
+@import 'layout/footer';
