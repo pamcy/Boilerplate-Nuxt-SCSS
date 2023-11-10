@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+console.log('good to go!')
+</script>
 
 <template>
   <div>
